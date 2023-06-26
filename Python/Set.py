@@ -25,3 +25,17 @@ print(pythonDev)
 # 집합 원소의 수 삭제 (java를 할 수 있는 개발자의 수가 줄어듦)
 javaDev.remove("양세형")
 print(javaDev)
+
+
+
+##################################
+# 자료구조의 변경 
+
+menu = {"커피", "우유", "주스"}  # set {}
+print(menu, type(menu))
+
+menu = list(menu)   # list []
+print(menu, type(menu))
+
+menu = tuple(menu)  # tuple ()
+print(menu, type(menu))
