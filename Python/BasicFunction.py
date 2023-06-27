@@ -24,7 +24,7 @@ print(randrange(1, 46)) # 1 이상 ~ 46 미만의 임의의 정수 생성
 print(randint(1, 45))   # 1 이상 ~ 45 이하의 임의의 정수 생성 
 
 
-# 퀴즈 
+# random 퀴즈 
 print("오프라인 스터디 모임 날짜는 매월 " + str(randint(4, 28)) + "일로 선정되었습니다.")
 
 
@@ -33,7 +33,7 @@ print("오프라인 스터디 모임 날짜는 매월 " + str(randint(4, 28)) + 
 python = "Python is Amazing"
 print(python.lower())   # 모두 소문자로 
 print(python.upper())   # 모두 대문자로 
-print(python[0].isupper())  # 인덱스의 값이 대문자인지 확인(불리언)
+print(python[0].isupper())  # 인덱스의 값이 대문자인지 확인(boolean)
 print(len(python))  # 문자열의 길이를 반환
 print(python.replace("Python", "Java")) # 해당되는 문자열을 새로운 단어로 변경 
 
